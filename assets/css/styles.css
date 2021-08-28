@@ -286,12 +286,22 @@ header nav li:last-child{
 	background-color: #000000;
 }
 
+.meetings .cal{
+	width: 70vw;
+	height: 27vw;
+	border:solid 1px #777;
+}
+
 
 @media (max-width: 800px){
 
 	.contact form input{
 		flex-basis: 100%;
 		margin: 0 0 20px 0;
+	}
+	.meetings .cal{
+		width: 90vw;
+		height: 70vw;
 	}
 
 }
